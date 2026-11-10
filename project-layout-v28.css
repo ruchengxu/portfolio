@@ -1,0 +1,12 @@
+
+/* Shared title-to-showcase breathing room. */
+.blacksmith>h1{margin-bottom:52px}
+.blade-study{max-width:1380px;margin:auto;padding:0 32px!important}
+.blade-study>h1{font:56px/1.1 Forum,serif;text-align:center;color:#e7d6af;margin:96px 0 52px}
+.study-hero,.study-video{max-width:1072px;margin:0 auto}
+.blade-study video{display:block;width:100%;height:auto;aspect-ratio:16/9;object-fit:contain;background:#090b0d;border:1px solid #b59a5b30;border-radius:3px}
+.blade-study figcaption{text-align:right;margin-top:10px}.blade-study figcaption button{background:none;border:0;border-bottom:1px solid #b59a5b60;color:#c8b17a;font-size:11px;padding:5px 0;cursor:pointer}
+.blade-study h2{text-align:center;font:39px/1.4 Forum,serif;color:#d5bd88;margin:0 0 30px}
+.study-introduction{max-width:740px;margin:64px auto 0;text-align:center}.study-introduction p{font-size:17px;line-height:1.9;color:#c1beb5}
+.study-section{max-width:1072px;margin:80px auto 0}.study-concept{background:white;border:1px solid #b59a5b38;border-radius:3px;overflow:hidden}.study-concept img,.study-wireframe img{display:block;width:100%;height:auto}.study-wireframe{border:1px solid #b59a5b38;border-radius:3px;overflow:hidden}.study-caption{text-align:center;font-size:12px;color:#aaa;margin-top:14px}.study-back{display:block;text-align:center;font-size:13px;color:#c8b17a;text-decoration:none;margin-top:64px}
+@media(max-width:700px){.blacksmith>h1{margin-bottom:36px}.blade-study{padding:0 20px!important}.blade-study>h1{font-size:42px;margin-top:58px;margin-bottom:36px}.blade-study h2{font-size:33px;margin-bottom:24px}.study-section{margin-top:56px}.study-introduction{margin-top:48px}.study-introduction p{font-size:15px}}
