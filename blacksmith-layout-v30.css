@@ -1,0 +1,39 @@
+
+/* A consistent project column and a clearer reading rhythm. */
+main.blacksmith{max-width:1280px;margin:0 auto;padding:0 64px!important}
+.blacksmith>h1{margin:80px 0 48px;font-size:56px}
+.blacksmith .gallery{max-width:1072px;margin:0 auto}
+.blacksmith .render{border:1px solid #b59a5b35;border-radius:3px;overflow:hidden;background:#090b0d}
+.blacksmith .render img{aspect-ratio:16/9;object-fit:contain}
+.blacksmith .thumbnails{gap:10px;margin-top:18px}.blacksmith .thumbnails img{width:72px;height:48px}
+.blacksmith .gallery>.arrow{top:calc((100% - 68px)/2 - 32px);background:#171819b3;border-radius:3px}.blacksmith .gallery>.previous{left:-52px}.blacksmith .gallery>.next{right:-52px}
+.blacksmith .introduction{max-width:760px;margin:64px auto 0;padding:0}
+.blacksmith .introduction h2{margin:0}.blacksmith .introduction p{margin-top:24px;font-size:16px;line-height:1.9}
+.blacksmith .software{margin-top:26px;gap:14px}.blacksmith .software img{width:46px;height:46px}
+.blacksmith .scene-showcase{width:calc(100% - 88px);max-width:1000px;margin:64px auto 0;left:0}
+.blacksmith .scene-player{border:1px solid #b59a5b35;border-radius:3px}
+.blacksmith .scene-controls{left:calc(100% + 26px)}
+.blacksmith .workflow{max-width:1072px;margin:88px auto 0;padding:48px 0 0;border-top:1px solid #b59a5b35}
+.blacksmith .workflow>h2{margin-bottom:42px}
+.blacksmith .references{margin:0}.blacksmith .references h3{font-size:30px;text-align:center;color:#d5bd88}
+.blacksmith .references>p{max-width:760px;margin:20px auto 30px;text-align:center;font-size:16px;line-height:1.9}
+.blacksmith .reference-images{display:grid;grid-template-columns:1fr 1fr;gap:28px;align-items:stretch;margin:0}
+.blacksmith .reference-images img{max-width:100%;width:100%;height:380px;object-fit:contain;background:#111314;border:1px solid #b59a5b30;padding:16px;border-radius:3px}
+.blacksmith .process{margin:76px 0 0;padding:0;display:grid;grid-template-columns:1fr 1fr;column-gap:56px;row-gap:20px;align-content:center;align-items:start}
+.blacksmith .process h3{grid-column:1;grid-row:1;font-size:30px;color:#d5bd88;margin-top:30px}
+.blacksmith .process-row{display:contents}
+.blacksmith .process-row p,.blacksmith .sculpting .process-row p{grid-column:1;grid-row:2;padding:0;font-size:16px;line-height:1.9}
+.blacksmith .process-row img{grid-column:2;grid-row:1/span 2;align-self:center;width:100%;height:360px;object-fit:contain;background:#111314;border:1px solid #b59a5b30;border-radius:3px;padding:14px}
+.blacksmith .details{max-width:1072px;margin:56px auto 0;padding:0;grid-template-columns:1fr 1fr;gap:32px;align-items:start}
+.blacksmith .details article{padding:20px;border:1px solid #b59a5b30;border-radius:3px;background:#12141588}
+.blacksmith .pair{gap:10px}.blacksmith .pair img,.blacksmith .roof img{width:calc(50% - 5px);height:auto;aspect-ratio:1;object-fit:contain}
+.blacksmith .details p{margin:20px 0 0;font-size:14px;line-height:1.9;max-width:none}
+.blacksmith .topology{max-width:1072px;margin:80px auto 0;padding-top:42px;border-top:1px solid #b59a5b35}
+.blacksmith .topology h3{text-align:center;font-size:34px;color:#d5bd88}
+.blacksmith .topology-grid{grid-template-columns:1fr 1.6fr;gap:32px;align-items:stretch;margin-top:30px}
+.blacksmith .stack{gap:16px}.blacksmith .topology-grid img{width:100%;background:#111314;border:1px solid #b59a5b30;border-radius:3px;padding:14px;object-fit:contain}
+.blacksmith .topology-grid>figure>img{height:calc(100% - 38px)}
+.blacksmith .topology figcaption{font-size:13px;color:#bcb6a7;margin-top:14px}
+@media(max-width:800px){main.blacksmith{padding:0 28px!important}.blacksmith>h1{font-size:44px;margin-top:58px;margin-bottom:36px}.blacksmith .gallery{width:calc(100% - 56px)}.blacksmith .gallery>.previous{left:-36px}.blacksmith .gallery>.next{right:-36px}.blacksmith .gallery>.arrow{width:30px;font-size:30px}.blacksmith .reference-images{gap:16px}.blacksmith .reference-images img{height:290px;padding:8px}.blacksmith .process{column-gap:28px}.blacksmith .process h3{margin-top:10px}.blacksmith .process-row img{height:310px}.blacksmith .details{gap:20px}.blacksmith .details article{padding:14px}}
+@media(max-width:600px){main.blacksmith{padding:0 20px!important}.blacksmith>h1{font-size:40px}.blacksmith .introduction{margin-top:48px}.blacksmith .introduction p{font-size:15px}.blacksmith .software{gap:10px}.blacksmith .software img{width:40px;height:40px}.blacksmith .scene-showcase{width:calc(100% - 48px);margin-top:48px;left:-10px}.blacksmith .scene-controls{left:calc(100% + 16px)}.blacksmith .workflow{margin-top:60px;padding-top:32px}.blacksmith .workflow>h2{margin-bottom:28px}.blacksmith .references>p{font-size:15px}.blacksmith .reference-images{grid-template-columns:1fr}.blacksmith .reference-images img{height:auto;max-height:420px;padding:12px}.blacksmith .process{grid-template-columns:1fr;gap:20px;margin-top:52px}.blacksmith .process h3{grid-column:1;grid-row:1;margin-top:0}.blacksmith .process-row p{grid-column:1;grid-row:2;font-size:15px}.blacksmith .process-row img{grid-column:1;grid-row:3;height:auto;max-height:400px}.blacksmith .details{grid-template-columns:1fr;margin-top:32px;gap:24px}.blacksmith .topology{margin-top:56px;padding-top:30px}.blacksmith .topology-grid{grid-template-columns:1fr;gap:28px}.blacksmith .stack{grid-template-columns:1fr 1fr;gap:12px}.blacksmith .topology-grid>figure>img{height:auto}.blacksmith .topology h3{font-size:30px}}
+.blacksmith .process{grid-template-rows:auto 1fr}@media(max-width:600px){.blacksmith .process{grid-template-rows:auto auto auto}}
