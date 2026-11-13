@@ -1,0 +1,6 @@
+
+.interior-process{max-width:1072px;margin:78px auto 0;padding-top:45px;border-top:1px solid #b59a5b35;text-align:center}
+.interior-process h3{color:#d5bd88;font-size:30px}.interior-stage{margin-top:52px}.interior-stage>p{max-width:700px;margin:12px auto 24px;color:#c1beb5;font-size:15px}
+.interior-process-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,250px),1fr));gap:24px}.interior-process figure{margin:0;min-width:0}
+.interior-process .artwork{border:1px solid #b59a5b38;background:#111314;border-radius:3px;overflow:hidden}.interior-process img{width:100%;height:auto;aspect-ratio:4/3;object-fit:contain}.interior-process figcaption{font-size:13px;color:#c8b17a;margin-top:10px}
+@media(max-width:600px){.interior-process{margin-top:52px;padding-top:28px}.interior-stage{margin-top:36px}}
